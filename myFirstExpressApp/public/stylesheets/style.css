@@ -1,0 +1,113 @@
+
+/* This example taken from https://css-tricks.com/full-browser-width-bars/
+is for preparing a full width bar
+*/
+html, body {
+  overflow-x: hidden;
+}
+
+.full-width-bar {
+  margin: 0 -9999rem;
+  /* add back negative margin value */
+  padding: 2.25rem;
+  height: 100px;
+  margin-bottom: 6rem;
+  background: #002147;
+}
+
+
+inner_body {
+  padding: 50px;
+  font: 16px Helvetica, Arial, sans-serif;
+}
+
+.navigation{
+	colour:#3836;
+	font-size:30px
+}
+
+.img {
+  border-radius: 50%;
+  width:100px;
+}
+
+div {margin: 0px 0px 30px 0px; }
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 4px solid #eceeef;
+  font:16px "Arial";
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 4px solid #eceeef;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #01070C;
+}
+
+.table tr:nth-child(even) {
+  background-color: #85C1E9
+}
+
+.table .table {
+  background-color: #fff;
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  @include box-sizing(border-box);
+}
+
+
+
+
+body{margin-top:20px;
+margin-bottom: 6rem;}
+
+.comment-wrapper .panel-body {
+    max-height:650px;
+    overflow:auto;
+}
+
+
+
+
+
+footer {
+  width: 100%;
+  display: inline-block;
+  margin: 2em 0;
+  height: 90px;
+  background-color: #002147;
+  padding: 0.75rem;
+
+
+
+.footerLinks {
+    float: right;
+}
+
+.copyright {
+    float: center;
+    color: white;
+}
+
+
+
+
+ 
